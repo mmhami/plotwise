@@ -7,7 +7,7 @@ PLot WISE catalogue sources on VLA radio continuum image
 '''
 
 import matplotlib.pyplot as plt
-from astropy.visualization import astropy_mpl_style #not sure what this does!
+from astropy.visualization import astropy_mpl_style 
 plt.style.use(astropy_mpl_style)
 from astropy.io import fits
 from astropy.wcs import WCS
